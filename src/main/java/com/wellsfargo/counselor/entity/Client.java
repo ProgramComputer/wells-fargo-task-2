@@ -14,7 +14,7 @@ public class Client {
     private long clientId;
 
 
-    @OneToMany
+    @ManyToOne
     @JoinColumn(name="advisorId")
     private Advisor advisor;
 

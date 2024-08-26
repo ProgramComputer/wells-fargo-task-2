@@ -14,7 +14,7 @@ public class Portfolio {
     private long portfolioId;
 
 
-    @OneToMany
+    @ManyToOne
     @JoinColumn(name="clientId")
     private Client client;
 
